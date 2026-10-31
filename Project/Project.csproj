@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\Inputs\FaceAxisInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Inputs\StringInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Inputs\FloatInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Inputs\Vector3DInput.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Panels\SpherePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Panels\RectangularPrismPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Panels\PlanePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Panels\CylinderPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\Panels\RectanglePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MainForm.Events.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.Geometry3D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.Geometry2D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
